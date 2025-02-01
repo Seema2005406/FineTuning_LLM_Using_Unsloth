@@ -1,0 +1,1897 @@
+[
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 12% and I am ready to pay 11 Euro for the charging spot. @@@@Car B: My Battery level is 8% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 17 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 11 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 17 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 17 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 11 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 17 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 14% and I am ready to pay 12 Euro for the charging spot. @@@@Car B: My Battery level is 11% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 19 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 17 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 19 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 19 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 19 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 16% and I am ready to pay 13 Euro for the charging spot. @@@@Car B: My Battery level is 14% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 21 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 13 Euro @@@@Car B: I raise my bid to 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 13 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 31 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 18% and I am ready to pay 14 Euro for the charging spot. @@@@Car B: My Battery level is 17% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 23 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 19 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 23 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 23 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 24 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 24 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 20% and I am ready to pay 15 Euro for the charging spot. @@@@Car B: My Battery level is 20% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I will stick to my bid of 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 22% and I am ready to pay 16 Euro for the charging spot. @@@@Car B: My Battery level is 23% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 21 Euro @@@@Car B: I raise my bid to 37 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 37 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 37 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 21 Euro @@@@Car B: I will stick to my bid of 37 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 37 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 24% and I am ready to pay 17 Euro for the charging spot. @@@@Car B: My Battery level is 26% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 29 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 26% and I am ready to pay 18 Euro for the charging spot. @@@@Car B: My Battery level is 29% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 23 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 28 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 31 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 28% and I am ready to pay 19 Euro for the charging spot. @@@@Car B: My Battery level is 7% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I raise my bid to 43 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 43 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 43 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I will stick to my bid of 43 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 43 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 30% and I am ready to pay 20 Euro for the charging spot. @@@@Car B: My Battery level is 10% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 25 Euro @@@@Car B: I will stick to my bid of 15 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 25 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 25 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 25 Euro @@@@Car B: I increase my bid to 20 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 25 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 32% and I am ready to pay 21 Euro for the charging spot. @@@@Car B: My Battery level is 13% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 21 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 21 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 21 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 21 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 21 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 34% and I am ready to pay 22 Euro for the charging spot. @@@@Car B: My Battery level is 16% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 27 Euro @@@@Car B: I raise my bid to 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 32 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 32 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 36% and I am ready to pay 23 Euro for the charging spot. @@@@Car B: My Battery level is 19% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 23 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 23 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 23 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 23 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 23 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 38% and I am ready to pay 24 Euro for the charging spot. @@@@Car B: My Battery level is 22% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 29 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 29 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 29 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 29 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 29 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 10% and I am ready to pay 10 Euro for the charging spot. @@@@Car B: My Battery level is 25% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 10 Euro @@@@Car B: I raise my bid to 35 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 35 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 35 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 10 Euro @@@@Car B: I increase my bid to 40 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 40 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 12% and I am ready to pay 11 Euro for the charging spot. @@@@Car B: My Battery level is 28% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 16 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 27 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 27 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 21 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 27 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 14% and I am ready to pay 12 Euro for the charging spot. @@@@Car B: My Battery level is 6% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 12 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 12 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 29 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 16% and I am ready to pay 13 Euro for the charging spot. @@@@Car B: My Battery level is 9% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 18 Euro @@@@Car B: I raise my bid to 41 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 41 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 41 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 18 Euro @@@@Car B: I will stick to my bid of 41 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 41 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 18% and I am ready to pay 14 Euro for the charging spot. @@@@Car B: My Battery level is 12% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 14 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 33 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 33 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 14 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 33 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 20% and I am ready to pay 15 Euro for the charging spot. @@@@Car B: My Battery level is 15% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 15 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 20 Euro @@@@Car B: I will stick to my bid of 15 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 20 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 20 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 25 Euro @@@@Car B: I increase my bid to 20 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 25 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 22% and I am ready to pay 16 Euro for the charging spot. @@@@Car B: My Battery level is 18% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 17 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 16 Euro @@@@Car B: I raise my bid to 27 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 27 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 27 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 16 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 27 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 24% and I am ready to pay 17 Euro for the charging spot. @@@@Car B: My Battery level is 21% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 19 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 22 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 22 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 22 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 22 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 22 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 26% and I am ready to pay 18 Euro for the charging spot. @@@@Car B: My Battery level is 24% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 21 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 18 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 21 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 21 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 18 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 21 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 28% and I am ready to pay 19 Euro for the charging spot. @@@@Car B: My Battery level is 27% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 23 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 24 Euro @@@@Car B: I raise my bid to 33 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 33 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 33 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 29 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 33 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 30% and I am ready to pay 20 Euro for the charging spot. @@@@Car B: My Battery level is 5% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 20 Euro @@@@Car B: I will stick to my bid of 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 20 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 32% and I am ready to pay 21 Euro for the charging spot. @@@@Car B: My Battery level is 8% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 26 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 27 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 27 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 26 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 27 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 34% and I am ready to pay 22 Euro for the charging spot. @@@@Car B: My Battery level is 11% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 22 Euro @@@@Car B: I raise my bid to 39 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 39 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 39 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 22 Euro @@@@Car B: I will stick to my bid of 39 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 39 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 36% and I am ready to pay 23 Euro for the charging spot. @@@@Car B: My Battery level is 14% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 28 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 33 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 33 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 38% and I am ready to pay 24 Euro for the charging spot. @@@@Car B: My Battery level is 17% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 24 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 33 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 33 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 24 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 33 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 10% and I am ready to pay 10 Euro for the charging spot. @@@@Car B: My Battery level is 20% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 15 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 15 Euro @@@@Car B: I raise my bid to 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 12% and I am ready to pay 11 Euro for the charging spot. @@@@Car B: My Battery level is 23% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 17 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 11 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 17 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 17 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 11 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 17 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 14% and I am ready to pay 12 Euro for the charging spot. @@@@Car B: My Battery level is 26% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 19 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 17 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 19 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 19 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 22 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 22 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 16% and I am ready to pay 13 Euro for the charging spot. @@@@Car B: My Battery level is 29% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 21 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 13 Euro @@@@Car B: I raise my bid to 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 13 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 31 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 18% and I am ready to pay 14 Euro for the charging spot. @@@@Car B: My Battery level is 7% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 23 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 19 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 23 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 23 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 23 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 20% and I am ready to pay 15 Euro for the charging spot. @@@@Car B: My Battery level is 10% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I will stick to my bid of 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 22% and I am ready to pay 16 Euro for the charging spot. @@@@Car B: My Battery level is 13% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 21 Euro @@@@Car B: I raise my bid to 37 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 37 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 37 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 26 Euro @@@@Car B: I will stick to my bid of 37 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 37 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 24% and I am ready to pay 17 Euro for the charging spot. @@@@Car B: My Battery level is 16% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 29 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 26% and I am ready to pay 18 Euro for the charging spot. @@@@Car B: My Battery level is 19% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 23 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 23 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 31 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 28% and I am ready to pay 19 Euro for the charging spot. @@@@Car B: My Battery level is 22% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I raise my bid to 43 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 43 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 43 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I will stick to my bid of 43 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 43 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 30% and I am ready to pay 20 Euro for the charging spot. @@@@Car B: My Battery level is 25% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 25 Euro @@@@Car B: I will stick to my bid of 15 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 25 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 25 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 30 Euro @@@@Car B: I increase my bid to 20 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 30 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 32% and I am ready to pay 21 Euro for the charging spot. @@@@Car B: My Battery level is 28% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 21 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 21 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 21 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 21 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 21 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 34% and I am ready to pay 22 Euro for the charging spot. @@@@Car B: My Battery level is 6% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 27 Euro @@@@Car B: I raise my bid to 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 27 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 29 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 36% and I am ready to pay 23 Euro for the charging spot. @@@@Car B: My Battery level is 9% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 23 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 23 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 23 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 23 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 23 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 38% and I am ready to pay 24 Euro for the charging spot. @@@@Car B: My Battery level is 12% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 29 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 29 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 29 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 34 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 34 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 10% and I am ready to pay 10 Euro for the charging spot. @@@@Car B: My Battery level is 15% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 10 Euro @@@@Car B: I raise my bid to 35 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 35 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 35 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 10 Euro @@@@Car B: I increase my bid to 40 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 40 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 12% and I am ready to pay 11 Euro for the charging spot. @@@@Car B: My Battery level is 18% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 16 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 27 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 27 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 16 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 27 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 14% and I am ready to pay 12 Euro for the charging spot. @@@@Car B: My Battery level is 21% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 12 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 12 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 29 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 16% and I am ready to pay 13 Euro for the charging spot. @@@@Car B: My Battery level is 24% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 18 Euro @@@@Car B: I raise my bid to 41 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 41 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 41 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 23 Euro @@@@Car B: I will stick to my bid of 41 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 41 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 18% and I am ready to pay 14 Euro for the charging spot. @@@@Car B: My Battery level is 27% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 14 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 33 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 33 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 14 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 33 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 20% and I am ready to pay 15 Euro for the charging spot. @@@@Car B: My Battery level is 5% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 15 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 20 Euro @@@@Car B: I will stick to my bid of 15 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 20 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 20 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 20 Euro @@@@Car B: I increase my bid to 20 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 20 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 22% and I am ready to pay 16 Euro for the charging spot. @@@@Car B: My Battery level is 8% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 17 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 16 Euro @@@@Car B: I raise my bid to 27 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 27 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 27 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 16 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 27 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 24% and I am ready to pay 17 Euro for the charging spot. @@@@Car B: My Battery level is 11% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 19 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 22 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 22 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 22 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 27 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 27 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 26% and I am ready to pay 18 Euro for the charging spot. @@@@Car B: My Battery level is 14% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 21 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 18 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 21 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 21 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 18 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 21 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 28% and I am ready to pay 19 Euro for the charging spot. @@@@Car B: My Battery level is 17% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 23 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 24 Euro @@@@Car B: I raise my bid to 33 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 33 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 33 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 24 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 33 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 30% and I am ready to pay 20 Euro for the charging spot. @@@@Car B: My Battery level is 20% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 20 Euro @@@@Car B: I will stick to my bid of 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 20 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 32% and I am ready to pay 21 Euro for the charging spot. @@@@Car B: My Battery level is 23% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 26 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 27 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 27 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 31 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 31 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 34% and I am ready to pay 22 Euro for the charging spot. @@@@Car B: My Battery level is 26% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 22 Euro @@@@Car B: I raise my bid to 39 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 39 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 39 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 22 Euro @@@@Car B: I will stick to my bid of 39 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 39 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 36% and I am ready to pay 23 Euro for the charging spot. @@@@Car B: My Battery level is 29% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 28 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 28 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 31 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 38% and I am ready to pay 24 Euro for the charging spot. @@@@Car B: My Battery level is 7% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 24 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 33 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 33 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 24 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 33 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 10% and I am ready to pay 10 Euro for the charging spot. @@@@Car B: My Battery level is 10% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 15 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 15 Euro @@@@Car B: I raise my bid to 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 20 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 12% and I am ready to pay 11 Euro for the charging spot. @@@@Car B: My Battery level is 13% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 17 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 11 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 17 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 17 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 11 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 17 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 14% and I am ready to pay 12 Euro for the charging spot. @@@@Car B: My Battery level is 16% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 19 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 17 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 19 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 19 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 19 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 16% and I am ready to pay 13 Euro for the charging spot. @@@@Car B: My Battery level is 19% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 21 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 13 Euro @@@@Car B: I raise my bid to 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 13 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 31 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 18% and I am ready to pay 14 Euro for the charging spot. @@@@Car B: My Battery level is 22% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 23 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 19 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 23 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 23 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 24 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 24 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 20% and I am ready to pay 15 Euro for the charging spot. @@@@Car B: My Battery level is 25% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I will stick to my bid of 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 22% and I am ready to pay 16 Euro for the charging spot. @@@@Car B: My Battery level is 28% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 21 Euro @@@@Car B: I raise my bid to 37 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 37 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 37 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 21 Euro @@@@Car B: I will stick to my bid of 37 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 37 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 24% and I am ready to pay 17 Euro for the charging spot. @@@@Car B: My Battery level is 6% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 29 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 26% and I am ready to pay 18 Euro for the charging spot. @@@@Car B: My Battery level is 9% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 23 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 28 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 31 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 28% and I am ready to pay 19 Euro for the charging spot. @@@@Car B: My Battery level is 12% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I raise my bid to 43 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 43 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 43 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I will stick to my bid of 43 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 43 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 30% and I am ready to pay 20 Euro for the charging spot. @@@@Car B: My Battery level is 15% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 25 Euro @@@@Car B: I will stick to my bid of 15 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 25 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 25 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 25 Euro @@@@Car B: I increase my bid to 20 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 25 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 32% and I am ready to pay 21 Euro for the charging spot. @@@@Car B: My Battery level is 18% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 21 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 21 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 21 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 21 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 21 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 34% and I am ready to pay 22 Euro for the charging spot. @@@@Car B: My Battery level is 21% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 27 Euro @@@@Car B: I raise my bid to 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 32 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 32 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 36% and I am ready to pay 23 Euro for the charging spot. @@@@Car B: My Battery level is 24% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 23 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 23 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 23 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 23 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 23 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 38% and I am ready to pay 24 Euro for the charging spot. @@@@Car B: My Battery level is 27% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 29 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 29 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 29 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 29 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 29 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 10% and I am ready to pay 10 Euro for the charging spot. @@@@Car B: My Battery level is 5% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 10 Euro @@@@Car B: I raise my bid to 35 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 35 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 35 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 10 Euro @@@@Car B: I increase my bid to 40 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 40 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 12% and I am ready to pay 11 Euro for the charging spot. @@@@Car B: My Battery level is 8% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 16 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 27 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 27 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 21 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 27 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 14% and I am ready to pay 12 Euro for the charging spot. @@@@Car B: My Battery level is 11% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 12 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 12 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 29 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 16% and I am ready to pay 13 Euro for the charging spot. @@@@Car B: My Battery level is 14% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 18 Euro @@@@Car B: I raise my bid to 41 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 41 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 41 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 18 Euro @@@@Car B: I will stick to my bid of 41 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 41 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 18% and I am ready to pay 14 Euro for the charging spot. @@@@Car B: My Battery level is 17% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 14 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 33 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 33 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 14 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 33 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 20% and I am ready to pay 15 Euro for the charging spot. @@@@Car B: My Battery level is 20% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 15 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 20 Euro @@@@Car B: I will stick to my bid of 15 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 20 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 20 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 25 Euro @@@@Car B: I increase my bid to 20 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 25 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 22% and I am ready to pay 16 Euro for the charging spot. @@@@Car B: My Battery level is 23% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 17 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 16 Euro @@@@Car B: I raise my bid to 27 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 27 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 27 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 16 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 27 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 24% and I am ready to pay 17 Euro for the charging spot. @@@@Car B: My Battery level is 26% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 19 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 22 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 22 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 22 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 22 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 22 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 26% and I am ready to pay 18 Euro for the charging spot. @@@@Car B: My Battery level is 29% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 21 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 18 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 21 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 21 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 18 Euro @@@@Car B: I will stick to my bid of 21 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 21 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 28% and I am ready to pay 19 Euro for the charging spot. @@@@Car B: My Battery level is 7% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 23 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 24 Euro @@@@Car B: I raise my bid to 33 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 33 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 33 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 29 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 33 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 30% and I am ready to pay 20 Euro for the charging spot. @@@@Car B: My Battery level is 10% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 20 Euro @@@@Car B: I will stick to my bid of 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 20 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 32% and I am ready to pay 21 Euro for the charging spot. @@@@Car B: My Battery level is 13% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 26 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 27 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 27 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 26 Euro @@@@Car B: I will stick to my bid of 27 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 27 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 34% and I am ready to pay 22 Euro for the charging spot. @@@@Car B: My Battery level is 16% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 22 Euro @@@@Car B: I raise my bid to 39 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 39 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 39 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 22 Euro @@@@Car B: I will stick to my bid of 39 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 39 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 36% and I am ready to pay 23 Euro for the charging spot. @@@@Car B: My Battery level is 19% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 28 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 33 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 33 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 38% and I am ready to pay 24 Euro for the charging spot. @@@@Car B: My Battery level is 22% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 24 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 33 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 33 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 24 Euro @@@@Car B: I will stick to my bid of 33 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 33 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 10% and I am ready to pay 10 Euro for the charging spot. @@@@Car B: My Battery level is 25% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 15 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 15 Euro @@@@Car B: I raise my bid to 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 12% and I am ready to pay 11 Euro for the charging spot. @@@@Car B: My Battery level is 28% and I am ready to pay 17 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 17 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 11 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 17 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 17 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 11 Euro @@@@Car B: I will stick to my bid of 17 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 17 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 14% and I am ready to pay 12 Euro for the charging spot. @@@@Car B: My Battery level is 6% and I am ready to pay 19 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 19 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 17 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 19 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 19 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 22 Euro @@@@Car B: I will stick to my bid of 19 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 22 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 16% and I am ready to pay 13 Euro for the charging spot. @@@@Car B: My Battery level is 9% and I am ready to pay 21 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 21 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 13 Euro @@@@Car B: I raise my bid to 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 13 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 31 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 18% and I am ready to pay 14 Euro for the charging spot. @@@@Car B: My Battery level is 12% and I am ready to pay 23 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 23 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 19 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 23 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 23 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I will stick to my bid of 23 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 23 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 20% and I am ready to pay 15 Euro for the charging spot. @@@@Car B: My Battery level is 15% and I am ready to pay 25 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 25 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I will stick to my bid of 25 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 25 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 25 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 15 Euro @@@@Car B: I increase my bid to 30 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 30 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 22% and I am ready to pay 16 Euro for the charging spot. @@@@Car B: My Battery level is 18% and I am ready to pay 27 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 27 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 21 Euro @@@@Car B: I raise my bid to 37 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 37 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 37 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 26 Euro @@@@Car B: I will stick to my bid of 37 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 37 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 24% and I am ready to pay 17 Euro for the charging spot. @@@@Car B: My Battery level is 21% and I am ready to pay 29 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 29 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 29 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 29 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 17 Euro @@@@Car B: I will stick to my bid of 29 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 29 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 26% and I am ready to pay 18 Euro for the charging spot. @@@@Car B: My Battery level is 24% and I am ready to pay 31 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 31 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 23 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 31 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 31 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 23 Euro @@@@Car B: I will stick to my bid of 31 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 31 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 28% and I am ready to pay 19 Euro for the charging spot. @@@@Car B: My Battery level is 27% and I am ready to pay 33 Euro for the charging spot.",
+        "Output": "@@@Car A: Car B is the highest bidder at 33 Euro, are you ready to rebid? @@@@Car B: You are the current highest bidder, please wait till Car A finishes bidding"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I raise my bid to 43 Euro.",
+        "Output": "@@@Car A: Car B has raised the bid to 43 Euro, are you ready to rebid? @@@@Car B: You are the highest bidder at 43 Euro. Waiting for Car A to rebid"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I will stick to my bid of 19 Euro @@@@Car B: I will stick to my bid of 43 Euro.",
+        "Output": "@@@Car A: Sorry, you did not get the charging spot. @@@@Car B: Congratulations! You secured the charging spot with a bid of 43 Euro."
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: My Battery level is 30% and I am ready to pay 20 Euro for the charging spot. @@@@Car B: My Battery level is 5% and I am ready to pay 15 Euro for the charging spot.",
+        "Output": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding @@@@Car B: Car A is the highest bidder at {highest_bid} Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I raise my bid to 25 Euro @@@@Car B: I will stick to my bid of 15 Euro.",
+        "Output": "@@@Car A: You are the highest bidder at 25 Euro. Waiting for Car B to rebid @@@@Car B: Car A has raised the bid to 25 Euro, are you ready to rebid?"
+    },
+    {
+        "Instruction": "You are a charging infrastructure agent. Allocate charging spot for the highest bidder. Decide the winner after three bids.",
+        "Input": "@@@Car A: I increase my bid to 30 Euro @@@@Car B: I increase my bid to 20 Euro.",
+        "Output": "@@@Car A: Congratulations! You secured the charging spot with a bid of 30 Euro. @@@@Car B: Sorry, you did not get the charging spot."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You are the current highest bidder, please wait till Car B finishes bidding ",
+        "Output": "@@@Car A: Okay I will wait"
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 25 Euro, are you willing to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You did not get the spot as Car B raised the bid to 30 Euro. Sorry, you have to wait.",
+        "Output": "@@@Car A: Alright, I will wait for my turn."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 15 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: Yes, I will increase my bid to 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You have raised your bid to 25 Euro. Please wait for Car B's response.",
+        "Output": "@@@Car A: Okay, I will wait."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has decided not to rebid. You have secured the charging spot..",
+        "Output": "@@@Car A: Thank you! I will proceed to the charging area."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is willing to pay 30 Euro. Are you ready to rebid?",
+        "Output": "@@@Car A: No, 20 Euro is my maximum offer."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B did not rebid, and the charging spot has been allocated to you.",
+        "Output": "@@@Car A: Great! I will proceed to the charging station now."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: The current bid by Car B is 12 Euro. Would you like to place a higher bid?",
+        "Output": "@@@Car A: Yes, I will bid 15 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has increased their bid to 18 Euro. Are you ready to rebid?",
+        "Output": "@@@Car A: No, I will stick to 15 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 22 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 20 Euro.  "
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 25 Euro, are you willing to rebid?",
+        "Output": "@@@Car A: Yes, I will increase my bid to 30 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 20 Euro, are you willing to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 15 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You did not get the spot as Car B raised the bid to 30 Euro. Sorry, you have to wait.",
+        "Output": "@@@Car A: Alright, I will wait for my turn."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 25 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 28 Euro, are you willing to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 18 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: Yes, I will increase my bid to 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 25 Euro, are you willing to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You did not get the spot as Car B raised the bid to 30 Euro. Sorry, you have to wait.",
+        "Output": "@@@Car A: Alright, I will wait for my turn.\n"
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 28 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 30 Euro, are you willing to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 25 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 12 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: Yes, I will increase my bid to 15 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 18 Euro, are you willing to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 15 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You did not get the spot as Car B raised the bid to 30 Euro. Sorry, you have to wait.",
+        "Output": "@@@Car A: Alright, I will wait for my turn."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 15 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: Yes, I will increase my bid to 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 25 Euro, are you willing to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You did not get the spot as Car B raised the bid to 30 Euro. Sorry, you have to wait.",
+        "Output": "@@@Car A: Alright, I will wait for my turn."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 18 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: Yes, I will increase my bid to 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 25 Euro, are you willing to rebid?\n",
+        "Output": "@@@Car A:No, I will stick to my bid of 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You did not get the spot as Car B raised the bid to 30 Euro. Sorry, you have to wait.",
+        "Output": "@@@Car A: Alright, I will wait for my turn."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 15 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: Yes, I will increase my bid to 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 30 Euro, are you willing to rebid?",
+        "Output": "@@@Car A: No, I will stick to my bid of 25 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 20 Euro, are you ready to rebid?",
+        "Output": "@@@Car A: Yes, I will increase my bid to 25 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 30 Euro, are you willing to rebid?",
+        "Output": "@@@No, I will stick to my bid of 25 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You did not get the spot as Car B raised the bid to 30 Euro. Sorry, you have to wait.",
+        "Output": "@@@Car A: Alright, I will wait for my turn."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 22 Euro, are you ready to rebid?\n",
+        "Output": "@@@Car A: No, I will stick to my bid of 20 Euro."
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B has raised the bid to 25 Euro, are you willing to rebid?\n",
+        "Output": "@@@Car A: No, I will stick to my bid of 20 Euro.\n\n"
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: You did not get the spot as Car B raised the bid to 30 Euro. Sorry, you have to wait.\n",
+        "Output": "@@@Car A: Alright, I will wait for my turn.\n"
+    },
+    {
+        "Instruction": "You are Car A and you value cost over convenience. You can bid up to a certain limit to negotiate to get the charging spot.",
+        "Input": "@@@Car A: Car B is currently the highest bidder at 18 Euro, are you ready to rebid?\n",
+        "Output": "@@@Car A: Yes, I will increase my bid to 20 Euro.\n"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is currently the highest bidder at 10 Euro, please wait until it completes its bidding before proceeding.",
+        "Output": "@@@@Car B: Alright, I\u2019ll wait for Car A. But as soon as I can, I\u2019ll raise my bid to 20 Euro. This is becoming urgent, though\u2014I need to charge!\n"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 30 Euro. Please wait for the next move from Car A before you proceed.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A\u2019s next bid. But if things get too high, I\u2019ll raise it to 40 Euro. My battery is draining quickly!\n"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is currently the highest bidder at 15 Euro, please wait until Car A places its next bid.",
+        "Output": "@@@@Car B: I\u2019ll wait for the next bid from Car A, but if needed, I\u2019m ready to raise it to 25 Euro. My battery\u2019s running low, and I need that spot!"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised its bid to 35 Euro. Please wait until Car A completes its bid.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A\u2019s next move, but I\u2019ll make sure to bid 45 Euro if it\u2019s my turn. My charging needs are urgent, I can\u2019t afford to wait much longer."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 20 Euro. Please wait for the next move from Car A.",
+        "Output": "@@@@Car B: I\u2019ll hold on for a moment to see what Car A does. If needed, I\u2019ll push my bid to 30 Euro\u2014time is of the essence, though!\n"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised its bid to 40 Euro. Please hold while we wait for their next bid",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finalize. If needed, I\u2019ll go to 50 Euro. My battery is almost gone, I can\u2019t risk running out."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is currently the highest bidder at 25 Euro, please wait until Car A places its final bid.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finalize their bid. But if they stop there, I\u2019ll offer 35 Euro. I\u2019m getting low on power, and this spot is essential."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised the bid to 45 Euro. Please hold while we wait for their final bid.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A, but I\u2019ll need to bid 55 Euro if Car A holds firm. My battery is running critically low!"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is the highest bidder at 30 Euro. Please wait for the next move from Car A",
+        "Output": "@@@@Car B: Alright, I\u2019ll wait for Car A. But once they finish, I\u2019ll go ahead and bid 40 Euro. I need to top off my battery quickly!"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 50 Euro. Please wait until they finish.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A\u2019s final decision. If it stays that high, I\u2019ll raise it to 60 Euro. I can\u2019t afford to be stuck with a dead battery."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 35 Euro. Please wait until Car A places its next bid.",
+        "Output": "@@@@Car B:I\u2019ll hold off for now, but I\u2019m ready to push it to 45 Euro if I have to. I don\u2019t want to risk being stranded with no charge."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B:Car A has placed a bid of 65 Euro. Please wait for their next bid",
+        "Output": "@@@@Car B: I\u2019ll wait for the final bid from Car A. If it stays that high, I\u2019ll raise it to 75 Euro. I absolutely can\u2019t risk losing this spot."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is the highest bidder at 40 Euro. Please wait for their next move.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A\u2019s next move, but if they stop at 45 Euro, I\u2019ll raise it to 50 Euro. I\u2019m getting anxious, my battery won\u2019t last much longer."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised the bid to 60 Euro. Please hold while we wait for their final bid.",
+        "Output": "@@@@Car B: Alright, I\u2019ll hold off for now. But once Car A is done, I\u2019ll be bidding 70 Euro. I really need to make sure I get this spot."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 45 Euro. Please wait for their next move.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A, but if they stop at 45 Euro, I\u2019ll offer 55 Euro. I really don\u2019t want to run out of charge in the middle of the day."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 65 Euro. Please wait for their next bid.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A\u2019s final bid. If they stop at that amount, I\u2019ll make my bid 75 Euro. I really need this charging spot now!"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 50 Euro. Please wait until they finish bidding.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A, but if they hold firm, I\u2019m ready to bid 60 Euro. My battery is draining fast, so I need to secure the spot."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has bid 55 Euro. Please hold off until we receive Car A's final offer.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finalize their bid, but I\u2019m planning to raise it to 65 Euro. I need this charging spot urgently."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is currently the highest bidder at 60 Euro. Please wait for the next bid from Car A",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A. But if they stop at 60, I\u2019ll increase my bid to 70 Euro. I really can\u2019t afford to wait too long."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised their bid to 70 Euro. Please hold off for now until we receive their final bid.",
+        "Output": "@@@@Car B: I\u2019ll wait until Car A is done. If necessary, I\u2019ll offer 80 Euro. My battery\u2019s critically low."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised the bid to 80 Euro. Please hold while Car A makes its final decision",
+        "Output": "@@@@Car B:I\u2019ll wait, but I\u2019m willing to increase my bid to 90 Euro. I need the spot; my battery is almost dead!"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 85 Euro. Please wait for the next move from Car A",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A. If they stop at 85, I\u2019ll bid 95 Euro. I need this spot to avoid being stranded!"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised the bid to 90 Euro. Please wait for the next bid",
+        "Output": "@@@@Car B: I\u2019ll hold on for now. If Car A sticks to 90 Euro, I\u2019ll raise my offer to 100 Euro. My battery is critically low, and I\u2019m getting desperate."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 100 Euro. Please wait while Car A completes their bidding.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finalize. But if it stays at 100, I\u2019ll bid 110 Euro. I absolutely need this spot for my battery."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is currently the highest bidder at 110 Euro. Please wait while Car A finishes.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A\u2019s final bid, but if they don\u2019t raise it, I\u2019m ready to go up to 120 Euro. I can\u2019t afford to lose this spot."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 120 Euro. Please wait for their final offer",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finish, but if they hold at 120 Euro, I\u2019ll raise my bid to 130 Euro. I can\u2019t wait any longer\u2014I need this spot!\n"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised the bid to 130 Euro. Please wait until Car A places their final bid",
+        "Output": "@@@@Car B: I\u2019ll hold off for now, but if it stays at 130 Euro, I\u2019ll bid 140 Euro. I\u2019m getting anxious\u2014my battery is almost empty.\n"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 140 Euro. Please wait for their next move",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finalize their bid, but if they stick with 140, I\u2019ll go ahead and offer 150 Euro. I need the spot right away!"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 150 Euro. Please wait while Car A completes their bidding",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finish. If it stays at 150, I\u2019ll raise it to 160 Euro. My battery is running critically low, and I need to charge fast."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised their bid to 160 Euro. Please wait for their final decision",
+        "Output": "@@@@Car B: I\u2019ll wait, but if Car A stops at 160, I\u2019ll offer 170 Euro. I need this spot immediately; time is running out."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised their bid to 160 Euro. Please wait for their final decision",
+        "Output": "@@@@Car B: I\u2019ll wait, but if Car A stops at 160, I\u2019ll offer 170 Euro. I need this spot immediately; time is running out."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is currently the highest bidder at 170 Euro. Please wait for the next move from Car A.",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A. If they stop at 170, I\u2019ll raise my offer to 180 Euro. I\u2019m in a real hurry to charge.\n"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 180 Euro. Please wait for the next bid",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A, but if they stay at 180, I\u2019ll bid 190 Euro. I can\u2019t afford to miss out on this spot\u2014I need to charge right now."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised their bid to 190 Euro. Please wait for the next bid",
+        "Output": "@@@@Car B: I\u2019ll hold off for now. If Car A sticks to 190, I\u2019ll go ahead and offer 200 Euro. I really can\u2019t risk being without a charge.\n"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 200 Euro. Please wait until Car A finishes bidding",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finish. But if they stop there, I\u2019ll go ahead and bid 210 Euro. I need that spot to avoid being stranded.\n"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 210 Euro. Please wait for the next bid from Car A",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finalize. But if it remains at 210, I\u2019ll raise my offer to 220 Euro. My battery is dangerously low!"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is the highest bidder at 220 Euro. Please wait until Car A places their next bid",
+        "Output": "@@@@Car B: I\u2019ll hold off for now. If Car A stays at 220, I\u2019ll go ahead and raise my bid to 230 Euro. I absolutely need this spot to recharge."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has raised the bid to 230 Euro. Please hold off for now until Car A places their next bid",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A\u2019s decision. If they stop at 230, I\u2019ll raise my offer to 240 Euro. I can\u2019t afford to run out of charge on the road."
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A has placed a bid of 240 Euro. Please wait for the next bid from Car A",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A\u2019s final move, but if they hold firm at 240, I\u2019ll go up to 250 Euro. I really need that charging spot!"
+    },
+    {
+        "Instruction": "You are Car B and you value convenience over cost. You can bid money to secure the charging spot.",
+        "Input": "@@@@Car B: Car A is currently the highest bidder at 250 Euro. Please wait until Car A finishes",
+        "Output": "@@@@Car B: I\u2019ll wait for Car A to finalize their bid. If they stick with 250, I\u2019ll bid 260 Euro. Time is running out for my battery."
+    }
+]
